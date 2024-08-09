@@ -1,6 +1,16 @@
-.back-ground {
-    background-color: lightblue;
-    padding: 20px;
-    text-align: center;
-    font-size: 24px;
+* {
+    margin: 0;
+    padding:0;
+}
+
+.navbar {
+    background-color: mintcream;
+    height: 60px;
+    border-bottom: 4px solid lavender;
+    
+}
+
+.first {
+    font-size: large;
+    font-weight: 500;
 }
