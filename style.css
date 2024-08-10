@@ -14,11 +14,39 @@
 }
 
 .first {
-    font-size: large;
+    font-size: 40px;
     font-weight: 500;
 }
 
 .logo {
     font-size: 40px;
     margin-right: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.main {
+    height: 400px;
+    width: 500px;
+    background-color: mintcream; 
+    margin-top: 70px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.one {
+    font-size: 1.85rem;
+    margin-top: 40px;
+}
+
+.two {
+    font-size: 1.85rem;
+    margin-top: 40px;
 }
