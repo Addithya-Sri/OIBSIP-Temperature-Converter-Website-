@@ -7,10 +7,18 @@
     background-color: mintcream;
     height: 60px;
     border-bottom: 4px solid lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .first {
     font-size: large;
     font-weight: 500;
+}
+
+.logo {
+    font-size: 40px;
+    margin-left: 5px;
 }
