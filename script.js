@@ -5,4 +5,3 @@ const portfolio = {
 }
 
 console.dir(typeof portfolio ['name'])
-OIBSIP-Temperature-Converter-Website-
