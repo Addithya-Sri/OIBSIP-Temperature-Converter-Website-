@@ -11,13 +11,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
     
 }
 
 .first {
     font-size: 40px;
     font-weight: 500;
+    
+   
 }
+
+.information {
+
+  
+
+}
+
 
 .logo {
     font-size: 40px;
