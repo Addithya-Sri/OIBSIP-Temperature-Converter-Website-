@@ -9,7 +9,8 @@
     height: 60px;
     border-bottom: 4px solid lavender;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
    
     
@@ -18,11 +19,14 @@
 .first {
     font-size: 40px;
     font-weight: 500;
+    margin-right: 450px;
     
-   
 }
 
 .information {
+
+    margin-right: 30px;
+    font-size: 15px;
 
   
 
@@ -31,7 +35,7 @@
 
 .logo {
     font-size: 40px;
-    margin-right: 5px;
+    margin-left: 40%;
 }
 
 .content {
@@ -98,6 +102,8 @@ button {
 
    
 }
+
+
 
 
 
