@@ -1,44 +1,15 @@
-/*const portfolio = {
-    name : "Cristiano Adi",
-    phone : 7619490166,
-    follow : true,
-}
+document.querySelector('button').addEventListener('click', function() {
+    const inputTemperature = document.querySelector('input').value;
+    const temperatureType = document.querySelector('#Temperature-type').value;
 
-console.dir(typeof portfolio ['name'])
+    let result;
+    if (temperatureType === 'Celsius') {
+        result = `Fahrenheit: ${(inputTemperature * 9/5) + 32}°F<br>Kelvin: ${parseFloat(inputTemperature) + 273.15}K`;
+    } else if (temperatureType === 'Fahrenheit') {
+        result = `Celsius: ${(inputTemperature - 32) * 5/9}°C<br>Kelvin: ${((inputTemperature - 32) * 5/9) + 273.15}K`;
+    } else if (temperatureType === 'Kelvin') {
+        result = `Celsius: ${inputTemperature - 273.15}°C<br>Fahrenheit: ${(inputTemperature - 273.15) * 9/5 + 32}°F`;
+    }
 
-let score = prompt("Enter the score")
-score = parseFloat(score)
-if ( score >= 80 && score <=100 ) {
-    console.log("Grade A");
-}
-else if ( score >=70 && score <= 79 ) {
-    console.log("Grade B");
-}
-else if ( score >=60 && score <= 69 ) {
-    console.log("Grade C");
-}
-else if ( score >= 50 && score <= 59 ) {
-    console.log("Grade D");
-}
-else if( score >= 40 && score <= 49 ) {
-    console.log("Fail");
-}
-else {
-    console.log("Invalid Input");
-}
-console.log(score)
-
-
-
-
-digit = prompt("Enter the number");
-if ( digit % 5 == 0) {
-    console.log("Its a multiple of 5");
-}
-else {
-console.log("Its not a multiple");
-}   */
-
-
-
-
+    document.getElementById('result').innerHTML = result;
+});
